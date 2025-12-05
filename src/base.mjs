@@ -1,16 +1,16 @@
 export default {
-    "git": {
-        "commitMessage": "release: v${version}"
+  git: {
+    commitMessage: 'release: v${version}',
+  },
+  github: {
+    release: true,
+  },
+  plugins: {
+    '@release-it/conventional-changelog': {
+      preset: {
+        name: 'eslint',
+      },
+      infile: 'CHANGELOG.md',
     },
-    "github": {
-        "release": true
-    },
-    "plugins": {
-        "@release-it/conventional-changelog": {
-            "preset": {
-                "name": "eslint"
-            },
-            "infile": "CHANGELOG.md"
-        }
-    }
+  },
 }

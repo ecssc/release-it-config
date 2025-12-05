@@ -1,6 +1,6 @@
-import { base, module } from './src/index.mjs'
+import { base, module } from '@ecssc/release-it-config'
 
 export default {
-    ...base,
-    ...module
+  ...base,
+  ...module,
 }
