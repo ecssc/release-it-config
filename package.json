@@ -4,6 +4,9 @@
   "description": "Shared release-it config for ECSSC projects",
   "type": "module",
   "exports": "./src/index.mjs",
+  "files": [
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/ecssc/release-it-config.git"
