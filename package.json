@@ -4,6 +4,9 @@
   "description": "Shared release-it config for ECSSC projects",
   "type": "module",
   "exports": "./src/index.mjs",
+  "overrides": {
+    "conventional-changelog-conventionalcommits": "^8.0.0"
+  },
   "files": [
     "src"
   ],
@@ -26,19 +29,17 @@
   },
   "dependencies": {
     "@release-it/conventional-changelog": "^10.0.0",
-    "conventional-changelog-eslint": "^6.0.0"
+    "conventional-changelog-conventionalcommits": "^8.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.0.0",
-    "@commitlint/config-conventional": "^20.0.0",
     "@ecssc/eslint-config": "^0.0.1",
     "@ecssc/prettier-config": "^0.0.1",
-    "@ecssc/release-it-config": "^0.0.1",
     "@ecssc/commitlint-config": "^0.0.1",
     "eslint": "^9.17.0",
-    "husky": "^8.0.0",
+    "husky": "^9.0.0",
     "lint-staged": "^15.2.2",
-    "prettier": "^3.2.5",
+    "prettier": "^3.4.2",
     "release-it": "^19.0.6"
   }
 }

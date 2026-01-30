@@ -1,4 +1,4 @@
-import { base, module } from '@ecssc/release-it-config'
+import { base, module } from './src'
 
 export default {
   ...base,
