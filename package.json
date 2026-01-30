@@ -1,6 +1,6 @@
 {
   "name": "@ecssc/release-it-config",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Shared release-it config for ECSSC projects",
   "type": "module",
   "exports": "./src/index.mjs",

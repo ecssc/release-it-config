@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.0](///compare/0.0.2...1.0.0) (2026-01-30)
+
+### ⚠ BREAKING CHANGES
+
+* eslint style releases no longer supported
+
+### Features
+
+* migrate to conventional commit plugin 66a0e0d
+
 ## [0.0.2](//compare/0.0.1...0.0.2) (2025-12-05)
 
 
