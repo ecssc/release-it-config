@@ -1,6 +1,6 @@
 {
   "name": "@ecssc/release-it-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared release-it config for ECSSC projects",
   "license": "MIT",
   "author": "Edward Coleridge Smith <edcoleridgesmith@gmail.com>",
