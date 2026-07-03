@@ -1,6 +1,6 @@
 # @ecssc/release-it-config
 
-Shared release-it configuration for ECSSC projects.
+Shared release-it configuration for ECSSC projects. Requires release-it 19 or 20.
 
 ## Installation
 
