@@ -7,7 +7,8 @@
   "type": "module",
   "exports": "./src/index.mjs",
   "overrides": {
-    "conventional-changelog-conventionalcommits": "^8.0.0"
+    "conventional-changelog-conventionalcommits": "^8.0.0",
+    "brace-expansion@1": "^1.1.13"
   },
   "files": [
     "src"
@@ -27,10 +28,10 @@
     ]
   },
   "peerDependencies": {
-    "release-it": "^19.0.0"
+    "release-it": "^19.0.0 || ^20.0.0"
   },
   "dependencies": {
-    "@release-it/conventional-changelog": "^10.0.0",
+    "@release-it/conventional-changelog": "^11.0.1",
     "conventional-changelog-conventionalcommits": "^8.0.0"
   },
   "devDependencies": {
@@ -42,6 +43,6 @@
     "husky": "^9.0.0",
     "lint-staged": "^15.2.2",
     "prettier": "^3.4.2",
-    "release-it": "^19.0.6"
+    "release-it": "^20.2.1"
   }
 }
