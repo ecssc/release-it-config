@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.0.3](https://github.com/ecssc/release-it-config/compare/1.0.2...1.0.3) (2026-07-03)
+
 ## [1.0.2](https://github.com/ecssc/release-it-config/compare/1.0.1...1.0.2) (2026-07-03)
 
 ### Bug Fixes
