@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.2](https://github.com/ecssc/release-it-config/compare/1.0.1...1.0.2) (2026-07-03)
+
+### Bug Fixes
+
+* patch vulnerable dependencies ([#1](https://github.com/ecssc/release-it-config/issues/1)) ([ffa639d](https://github.com/ecssc/release-it-config/commit/ffa639d079796fb8230249beb5f01b7859f16ec2))
+
 ## [1.0.1](///compare/1.0.0...1.0.1) (2026-02-03)
 
 ## [1.0.0](///compare/0.0.2...1.0.0) (2026-01-30)
